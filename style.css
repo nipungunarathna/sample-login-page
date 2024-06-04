@@ -4,15 +4,18 @@ body{
  align-items: center;
  display: flex;
  min-height:100vh;
+ background-image: url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg) ;
 }
 
 .logbox{
     width: 400px;
-    background-color: blue;
+    background:transparent;
     color: white;
     border-radius: 20px;
     padding: 20px;
-    
+    border: 1px solid white;
+    backdrop-filter: blur(20px) ;
+    box-shadow: 2px;
 }
 .logbox h1{
     color:white;
@@ -33,11 +36,12 @@ body{
     border-radius: 40px;
     color: white;
     font-size: 20px;
+    padding: 5px;
    
 }
 .inputbox input::placeholder{
-   color: white;
-    
+    color: white;
+    padding: 5px; ;
 }
 .Remember-me{
     display: flex;
